@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Test Automation Univeristy Suite">
+	<test name = "configuration annotation test">
+		<classes>
+			<class name = "com.testautomationu.chapter3annotations.Configuration_Annotation">
+				<methods>
+					<include name = "searchCustomer"/>
+					<include name = "searchProduct"/>
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
